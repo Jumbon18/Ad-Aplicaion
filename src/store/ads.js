@@ -1,4 +1,3 @@
-import uniqid from 'uniqid';
 import * as fb from 'firebase';
 
 class Ad {

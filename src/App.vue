@@ -43,6 +43,8 @@
                     :to="link.url"
                     text
             ><v-icon left>{{link.icon}}</v-icon>{{link.title}}</v-btn>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, quisquam.</p>
+
                 <v-btn v-if="isUserLoggedIn" text @click="onLogout"><v-icon left>exit_to_app</v-icon>Logout</v-btn>
             </v-list-item>
         </v-list>
